@@ -1,13 +1,15 @@
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-s;
-    display: flex;
-    flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 
 .header {
-    background-color: #1F2937;
+    background-color: #4e880c;
     display: flex;
     justify-content: space-around;
+    gap: 175px;
+    padding: 12px 0;
 }
 
 .header-links > a {
@@ -16,7 +18,102 @@ body {
     margin: 7px;
 }
 
-.website-info {
+.info {
     color: white;
-    background-color: #1F2937;
+    background-color: #4e880c;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px; 
+}
+
+.invitation-button {
+    background-color: #005a0c;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    padding: 8px;
+}
+
+.more-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.couple-images {
+    display: flex;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+
+.mia {
+    border: solid #4e880c;
+    border-radius: 12px;
+    border-width: 4px;
+}
+
+.daniel {
+    border: solid #4e880c;
+    border-radius: 12px;
+    border-width: 4px;
+}
+
+.quote {
+    background-color: #fffedb;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-text > p {
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    font-size: 32px;
+}
+
+.author {
+    align-self: center;
+    padding-left: 500px;
+    text-wrap: nowrap;
+}
+
+.DMO {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color: #4e880c;
+    color: white;
+    max-width: 50%;
+    margin: 60px auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.DMO-text {
+    font-size: 10px;
+}
+
+.DMO-text > h1 {
+    margin-bottom: -10px;
+}
+
+.invitation-button2 {
+    background-color: #005a0c;
+    color: white;
+    border-radius: 5px;
+    border-style: solid;
+    padding: 8px;
+    border-color: white
+}
+
+footer {
+    background-color: #24371f;
+    color: white;
+    padding: 20px;
+    font-size: 5px;
+    text-align: center;
+    font-weight: lighter;
 }
